@@ -3,160 +3,219 @@
     "codi_id": "VID_001",
     "problema_original": {
       "code": "PROB_101",
-      "titl": "Introduccio a NoSQL"
+      "titol": "Conceptes NoSQL"
     },
-    "ref_titol": "Conceptes de Sharding",
-    "descripcio": "Explicacio tecnica de l'escalat horitzontal",
-    "tipus": "solucio",
+    "ref_titol": "Introduccio a BDNR",
+    "descripcio": "Explicacio de bases de dades no relacionals",
+    "tipus": "problema",
     "ref_autor": {
-      "niu": "2001",
+      "niu": "1001",
       "nom": "Javi"
     },
     "ref_assignatura": "BDNR",
     "solucions": [
       {
-        "code": "S_001",
-        "trtol": "Arquitectura de Shards",
+        "code": "SOL_201",
+        "trtol": "Solucio Sharding Javi",
         "puntuacio": 5
       }
     ],
     "comentaris": [
       {
         "usuari": {
-          "niu": "2002",
+          "niu": "1002",
           "nom": "Didac"
         },
-        "comentari": "Molt ben explicat el concepte",
+        "comentari": "Molt bona explicacio inicial",
         "puntuacio": 5
       }
     ],
     "data": "2026-03-27",
     "puntuacio_mitjana": 4.8,
-    "total_comentaris": 10,
+    "total_comentaris": 1,
     "total_visualitzacions": 120
   },
   {
     "codi_id": "VID_002",
-    "problema_original": { "code": "PROB_102", "titl": "Sincronitzacio" },
-    "ref_titol": "Algorisme de Ricart-Agrawala",
-    "descripcio": "Sincronitzacio en sistemes distribuits",
+    "problema_original": {
+      "code": "PROB_102",
+      "titol": "Sincronitzacio"
+    },
+    "ref_titol": "Solucio Threads",
+    "descripcio": "Gestio de fils en SyD",
     "tipus": "solucio",
-    "ref_autor": { "niu": "2002", "nom": "Didac" },
+    "ref_autor": {
+      "niu": "1002",
+      "nom": "Didac"
+    },
     "ref_assignatura": "SyD",
     "solucions": [],
     "comentaris": [
       {
-        "usuari": { "niu": "2004", "nom": "Marc" },
-        "comentari": "M'ha servit per l'examen",
+        "usuari": {
+          "niu": "1004",
+          "nom": "Marc"
+        },
+        "comentari": "Entes perfectament",
         "puntuacio": 4
       }
     ],
     "data": "2026-03-28",
-    "puntuacio_mitjana": 4.5,
-    "total_comentaris": 4,
+    "puntuacio_mitjana": 4.0,
+    "total_comentaris": 1,
     "total_visualitzacions": 90
   },
   {
     "codi_id": "VID_003",
-    "problema_original": { "code": "PROB_103", "titl": "Capa de Xarxa" },
-    "ref_titol": "Subnetting VLSM",
-    "descripcio": "Divisio de xarxes eficient",
+    "problema_original": {
+      "code": "PROB_103",
+      "titol": "Capa de Xarxa"
+    },
+    "ref_titol": "Configuracio OSPF",
+    "descripcio": "Exercici practic de routing",
     "tipus": "problema",
-    "ref_autor": { "niu": "2003", "nom": "Alejandro" },
+    "ref_autor": {
+      "niu": "1003",
+      "nom": "Alejandro"
+    },
     "ref_assignatura": "Xarxes",
     "solucions": [
-      { "code": "S_003", "trtol": "Calcul de mascares Alejandro", "puntuacio": 4 }
+      {
+        "code": "SOL_203",
+        "trtol": "Configuracio Alejandro",
+        "puntuacio": 4.5
+      }
     ],
     "comentaris": [],
     "data": "2026-03-29",
-    "puntuacio_mitjana": 4.2,
-    "total_comentaris": 7,
+    "puntuacio_mitjana": 4.5,
+    "total_comentaris": 0,
     "total_visualitzacions": 110
   },
   {
     "codi_id": "VID_004",
-    "problema_original": { "code": "PROB_104", "titl": "Diagrames UML" },
-    "ref_titol": "Diagrames d'Estat",
-    "descripcio": "Modelat d'una maquina d'estats",
+    "problema_original": {
+      "code": "PROB_104",
+      "titol": "Relacions UML"
+    },
+    "ref_titol": "Diagrama d'Herencia",
+    "descripcio": "Modelat d'un sistema de vehicles",
     "tipus": "solucio",
-    "ref_autor": { "niu": "2004", "nom": "Marc" },
+    "ref_autor": {
+      "niu": "1004",
+      "nom": "Marc"
+    },
     "ref_assignatura": "Modelitzacio",
     "solucions": [],
     "comentaris": [
       {
-        "usuari": { "niu": "2006", "nom": "Jan" },
-        "comentari": "Esquema molt net",
+        "usuari": {
+          "niu": "1006",
+          "nom": "Jan"
+        },
+        "comentari": "Bon esquema",
         "puntuacio": 5
       }
     ],
     "data": "2026-03-30",
-    "puntuacio_mitjana": 4.0,
-    "total_comentaris": 3,
+    "puntuacio_mitjana": 5.0,
+    "total_comentaris": 1,
     "total_visualitzacions": 55
   },
   {
     "codi_id": "VID_005",
-    "problema_original": { "code": "PROB_105", "titl": "Optimitzacio" },
-    "ref_titol": "Maxims i Minims",
-    "descripcio": "Us de la primera derivada",
+    "problema_original": {
+      "code": "PROB_105",
+      "titol": "Derivades"
+    },
+    "ref_titol": "Calcul de la Tangent",
+    "descripcio": "Aplicacio de la derivada en un punt",
     "tipus": "solucio",
-    "ref_autor": { "niu": "2005", "nom": "aleix" },
+    "ref_autor": {
+      "niu": "1005",
+      "nom": "aleix"
+    },
     "ref_assignatura": "Calcul",
     "solucions": [],
     "comentaris": [
       {
-        "usuari": { "niu": "2001", "nom": "Javi" },
-        "comentari": "Compte amb el punt critic",
+        "usuari": {
+          "niu": "1001",
+          "nom": "Javi"
+        },
+        "comentari": "Revisa el signe al final",
         "puntuacio": 3
       }
     ],
     "data": "2026-03-31",
-    "puntuacio_mitjana": 3.9,
-    "total_comentaris": 2,
+    "puntuacio_mitjana": 3.0,
+    "total_comentaris": 1,
     "total_visualitzacions": 40
   },
   {
     "codi_id": "VID_006",
-    "problema_original": { "code": "PROB_106", "titl": "Bucles Python" },
-    "ref_titol": "While vs For",
-    "descripcio": "Quan usar cada estructura",
+    "problema_original": {
+      "code": "PROB_106",
+      "titol": "Llistes Python"
+    },
+    "ref_titol": "Slicing i metodes",
+    "descripcio": "Com manipular llistes en Python",
     "tipus": "problema",
-    "ref_autor": { "niu": "2006", "nom": "Jan" },
+    "ref_autor": {
+      "niu": "1006",
+      "nom": "Jan"
+    },
     "ref_assignatura": "IniProg",
     "solucions": [
-      { "code": "S_006", "trtol": "Implementacio Jan", "puntuacio": 5 }
+      {
+        "code": "SOL_206",
+        "trtol": "Solucio optimitzada Jan",
+        "puntuacio": 5
+      }
     ],
     "comentaris": [
       {
-        "usuari": { "niu": "2005", "nom": "aleix" },
-        "comentari": "Molt intuitiu",
+        "usuari": {
+          "niu": "1005",
+          "nom": "aleix"
+        },
+        "comentari": "Molt clar per comencat",
         "puntuacio": 5
       }
     ],
     "data": "2026-04-01",
     "puntuacio_mitjana": 5.0,
-    "total_comentaris": 15,
+    "total_comentaris": 1,
     "total_visualitzacions": 300
   },
   {
     "codi_id": "VID_007",
-    "problema_original": { "code": "PROB_107", "titl": "Busqueda Heuristica" },
-    "ref_titol": "Algorisme A*",
-    "descripcio": "Cerca de camins minims",
+    "problema_original": {
+      "code": "PROB_107",
+      "titol": "K-means"
+    },
+    "ref_titol": "Algorisme de Clustering",
+    "descripcio": "Agrupament de dades en IA",
     "tipus": "solucio",
-    "ref_autor": { "niu": "2007", "nom": "Hector" },
+    "ref_autor": {
+      "niu": "1007",
+      "nom": "Hector"
+    },
     "ref_assignatura": "IA",
     "solucions": [],
     "comentaris": [
       {
-        "usuari": { "niu": "2003", "nom": "Alejandro" },
-        "comentari": "La millor explicacio d'A*",
-        "puntuacio": 5
+        "usuari": {
+          "niu": "1003",
+          "nom": "Alejandro"
+        },
+        "comentari": "Interessant aplicacio",
+        "puntuacio": 4
       }
     ],
     "data": "2026-04-02",
-    "puntuacio_mitjana": 4.7,
-    "total_comentaris": 8,
+    "puntuacio_mitjana": 4.0,
+    "total_comentaris": 1,
     "total_visualitzacions": 210
   }
 ]
