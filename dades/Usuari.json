@@ -1,0 +1,93 @@
+[
+  {
+    "nom": "Javi",
+    "curs": "N/A",
+    "correu": "javi@uab.cat",
+    "contrasenya": "pass123",
+    "tipus": "professor",
+    "puntuacio_acumulada": 120,
+    "comptador_vots": 25,
+    "especialitat": "Bases de Dades No Relacionals",
+    "ref_assignatures_expert": [
+      "BDNR"
+    ],
+    "videos_pujats": 5,
+    "comentaris_rebuts": 25,
+    "puntuacio_mitjana_rebuda": 4.8,
+    "suma_puntuacions_rebudes": 120,
+    "total_vots_rebuts": 25
+  },
+  {
+    "nom": "Didac",
+    "curs": "4t",
+    "correu": "didac@uab.cat",
+    "contrasenya": "didac00",
+    "tipus": "estudiant",
+    "puntuacio_acumulada": 45,
+    "comptador_vots": 10,
+    "videos_pujats": 2,
+    "comentaris_rebuts": 12
+  },
+  {
+    "nom": "Alejandro",
+    "curs": "2n",
+    "correu": "ale@uab.cat",
+    "contrasenya": "ale_x",
+    "tipus": "estudiant",
+    "puntuacio_acumulada": 30,
+    "comptador_vots": 6,
+    "videos_pujats": 1,
+    "comentaris_rebuts": 5
+  },
+  {
+    "nom": "Marc",
+    "curs": "3r",
+    "correu": "marc@uab.cat",
+    "contrasenya": "marc_p",
+    "tipus": "estudiant",
+    "puntuacio_acumulada": 15,
+    "comptador_vots": 3,
+    "videos_pujats": 1,
+    "comentaris_rebuts": 4
+  },
+  {
+    "nom": "aleix",
+    "curs": "1r",
+    "correu": "aleix@uab.cat",
+    "contrasenya": "aleix99",
+    "tipus": "estudiant",
+    "puntuacio_acumulada": 10,
+    "comptador_vots": 2,
+    "videos_pujats": 1,
+    "comentaris_rebuts": 2
+  },
+  {
+    "nom": "Jan",
+    "curs": "2n",
+    "correu": "jan@uab.cat",
+    "contrasenya": "jan_v",
+    "tipus": "estudiant",
+    "puntuacio_acumulada": 60,
+    "comptador_vots": 12,
+    "videos_pujats": 3,
+    "comentaris_rebuts": 20
+  },
+  {
+    "nom": "Hector",
+    "curs": "N/A",
+    "correu": "hector@uab.cat",
+    "contrasenya": "hec_prof",
+    "tipus": "professor",
+    "puntuacio_acumulada": 245,
+    "comptador_vots": 50,
+    "especialitat": "IA",
+    "ref_assignatures_expert": [
+      "IA"
+    ],
+    "videos_pujats": 4,
+    "comentaris_rebuts": 50,
+    "puntuacio_mitjana_rebuda": 4.9,
+    "suma_puntuacions_rebudes": 245,
+    "total_vots_rebuts": 50
+  }
+]

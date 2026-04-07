@@ -1,0 +1,37 @@
+[
+  {
+    "nom_id": "BDNR",
+    "credits": 6,
+    "descripcio": "Bases de Dades No Relacionals"
+  },
+  {
+    "nom_id": "SyD",
+    "credits": 6,
+    "descripcio": "Sistemes i Distribuits"
+  },
+  {
+    "nom_id": "Xarxes",
+    "credits": 6,
+    "descripcio": "Xarxes de Computadors"
+  },
+  {
+    "nom_id": "Modelitzacio",
+    "credits": 6,
+    "descripcio": "Modelitzacio de Software"
+  },
+  {
+    "nom_id": "Calcul",
+    "credits": 6,
+    "descripcio": "Calcul Infinitesimal"
+  },
+  {
+    "nom_id": "IniProg",
+    "credits": 6,
+    "descripcio": "Iniciacio a la Programacio"
+  },
+  {
+    "nom_id": "IA",
+    "credits": 6,
+    "descripcio": "Intel.ligencia Artificial"
+  }
+]

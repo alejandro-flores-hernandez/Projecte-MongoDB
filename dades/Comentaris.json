@@ -1,0 +1,79 @@
+[
+  {
+    "id_comentari": "COM_001",
+    "ref_code_video": "VID_001",
+    "ref_usuari": {
+      "niu": "1002",
+      "nom": "Didac"
+    },
+    "comentar": "Molt bona explicacio inicial",
+    "puntuacio": 5,
+    "data": "2026-03-27"
+  },
+  {
+    "id_comentari": "COM_002",
+    "ref_code_video": "VID_002",
+    "ref_usuari": {
+      "niu": "1004",
+      "nom": "Marc"
+    },
+    "comentar": "Entes perfectament",
+    "puntuacio": 4,
+    "data": "2026-03-28"
+  },
+  {
+    "id_comentari": "COM_003",
+    "ref_code_video": "VID_004",
+    "ref_usuari": {
+      "niu": "1006",
+      "nom": "Jan"
+    },
+    "comentar": "Bon esquema",
+    "puntuacio": 5,
+    "data": "2026-03-29"
+  },
+  {
+    "id_comentari": "COM_004",
+    "ref_code_video": "VID_005",
+    "ref_usuari": {
+      "niu": "1001",
+      "nom": "Javi"
+    },
+    "comentar": "Revisa el signe al final",
+    "puntuacio": 3,
+    "data": "2026-03-31"
+  },
+  {
+    "id_comentari": "COM_005",
+    "ref_code_video": "VID_006",
+    "ref_usuari": {
+      "niu": "1005",
+      "nom": "aleix"
+    },
+    "comentar": "Molt clar per comencat",
+    "puntuacio": 5,
+    "data": "2026-04-01"
+  },
+  {
+    "id_comentari": "COM_006",
+    "ref_code_video": "VID_001",
+    "ref_usuari": {
+      "niu": "1007",
+      "nom": "Hector"
+    },
+    "comentar": "Interessant el sharding",
+    "puntuacio": 4,
+    "data": "2026-04-02"
+  },
+  {
+    "id_comentari": "COM_007",
+    "ref_code_video": "VID_007",
+    "ref_usuari": {
+      "niu": "1003",
+      "nom": "Alejandro"
+    },
+    "comentar": "Interessant aplicacio",
+    "puntuacio": 4,
+    "data": "2026-04-02"
+  }
+]
