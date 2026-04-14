@@ -6,10 +6,11 @@ from pymongo import MongoClient, UpdateOne
 
 HOST = "mongoDB.uab.cat"
 PORT = 27017
-USER = "1710713"
-PASSWORD = "055244"
-AUTH_DB = "BDNR_1710713"
-DB_NAME = "BDNR_1710713"
+USER = "1709458"
+PASSWORD = "a50d8e"
+AUTH_DB = "BDNR_1709458"
+DB_NAME = "BDNR_1709458"
+
 
 def connectar_mongodb():
     try:
@@ -20,6 +21,7 @@ def connectar_mongodb():
     except Exception as e:
         print(f"Error connectant a MongoDB: {e}")
         sys.exit(1)
+
 
 def map_nom_colleccio(nom_fitxer):
     mapping = {
@@ -32,29 +34,13 @@ def map_nom_colleccio(nom_fitxer):
     # Fem que no importi si el fitxer està en majúscules o minúscules
     return mapping.get(nom_fitxer.capitalize(), nom_fitxer.lower())
 
+
 def obtenir_filtre(doc, nom_coll):
+    if "_id" not in doc or doc["_id"] is None:
+        print(f"Document ignorat a '{nom_coll}' (falta _id)")
+        return None
+    return {"_id": doc["_id"]}
 
-    if nom_coll == "videos":
-        return {"codi_id": doc.get("codi_id")}
-
-    elif nom_coll == "usuaris":
-        return {"niu_id": doc.get("niu_id")}
-
-    elif nom_coll == "assignatures":
-        return {"nom_id": doc.get("nom_id")}
-
-    elif nom_coll == "comentaris":
-        return {"id_comentari": doc.get("id_comentari")}
-
-
-    elif nom_coll == "visualitzacions":
-        return {
-            "ref_code_video": doc.get("ref_code_video"),
-            "ref_usuari.niu": doc.get("ref_usuari", {}).get("niu"),
-            "data_hora": doc.get("data_hora")
-        }
-
-    return None
 
 def carregar_dades_carpeta(carpeta):
     if not os.path.isdir(carpeta):
@@ -74,6 +60,7 @@ def carregar_dades_carpeta(carpeta):
             except Exception as e:
                 print(f"Error llegint {fitxer}: {e}")
     return dades
+
 
 def importar_a_mongodb(dades):
     db = connectar_mongodb()
@@ -100,6 +87,7 @@ def importar_a_mongodb(dades):
             except Exception as e:
                 print(f"Error a '{nom_coll}': {e}")
 
+
 def main():
     parser = argparse.ArgumentParser(description="Importador JSON a MongoDB (Corregit)")
     parser.add_argument("-f", "--folder", required=True, help="Carpeta amb fitxers JSON")
@@ -108,6 +96,7 @@ def main():
     dades = carregar_dades_carpeta(args.folder)
     importar_a_mongodb(dades)
     print("\nProcés finalitzat correctament.")
+
 
 if __name__ == "__main__":
     main()

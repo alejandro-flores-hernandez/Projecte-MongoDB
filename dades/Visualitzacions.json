@@ -1,58 +1,134 @@
 [
   {
-    "ref_code_video": "VID_001",
-    "ref_usuari": {
-      "niu": "1002",
-      "nom": "Didac"
-    },
+    "_id":"VIS1",
+    "codi_video": "P1",
+    "usuari": {"niu": "2", "nom": "Didac"},
     "data_hora": "2026-03-27T20:30:00Z"
   },
   {
-    "ref_code_video": "VID_002",
-    "ref_usuari": {
-      "niu": "1001",
-      "nom": "Javi"
-    },
-    "data_hora": "2026-03-27T21:00:00Z"
+    "_id":"VIS2",
+    "codi_video": "P1",
+    "usuari": {"niu": "5", "nom": "Aleix"},
+    "data_hora": "2026-03-29T19:30:00Z"
   },
   {
-    "ref_code_video": "VID_003",
-    "ref_usuari": {
-      "niu": "1004",
-      "nom": "Marc"
-    },
-    "data_hora": "2026-03-28T10:15:00Z"
+    "_id":"VIS3",
+    "codi_video": "P1",
+    "usuari": {"niu": "7", "nom": "Hector"},
+    "data_hora": "2026-03-31T12:30:00Z"
   },
   {
-    "ref_code_video": "VID_004",
-    "ref_usuari": {
-      "niu": "1003",
-      "nom": "Alejandro"
-    },
-    "data_hora": "2026-03-28T11:00:00Z"
+    "_id":"VIS4",
+    "codi_video": "P1",
+    "usuari": {"niu": "6", "nom": "Jan"},
+    "data_hora": "2026-03-29T20:30:00Z"
   },
   {
-    "ref_code_video": "VID_005",
-    "ref_usuari": {
-      "niu": "1006",
-      "nom": "Jan"
-    },
-    "data_hora": "2026-03-29T09:30:00Z"
+    "_id":"VIS5",
+    "codi_video": "P2",
+    "usuari": {"niu": "1", "nom": "Javi"},
+    "data_hora": "2026-03-26T14:30:00Z"
   },
   {
-    "ref_code_video": "VID_006",
-    "ref_usuari": {
-      "niu": "1005",
-      "nom": "aleix"
-    },
-    "data_hora": "2026-03-29T20:00:00Z"
+    "_id":"VIS6",
+    "codi_video": "P2",
+    "usuari": {"niu": "2", "nom": "Didac"},
+    "data_hora": "2026-03-31T19:30:00Z"
   },
   {
-    "ref_code_video": "VID_007",
-    "ref_usuari": {
-      "niu": "1002",
-      "nom": "Didac"
-    },
-    "data_hora": "2026-03-30T08:45:00Z"
+    "_id":"VIS7",
+    "codi_video": "P2",
+    "usuari": {"niu": "3", "nom": "Alejandro"},
+    "data_hora": "2026-04-04T09:00:00Z"
+  },
+  {
+    "_id":"VIS8",
+    "codi_video": "P2",
+    "usuari": {"niu": "6", "nom": "Jan"},
+    "data_hora": "2026-04-07T22:30:00Z"
+  },
+  {
+    "_id":"VIS9",
+    "codi_video": "P2",
+    "usuari": {"niu": "4", "nom": "Marc"},
+    "data_hora": "2026-04-11T18:30:00Z"
+  },
+  {
+    "_id":"VIS10",
+    "codi_video": "P3",
+    "usuari": {"niu": "1", "nom": "Javi"},
+    "data_hora": "2026-04-01T19:30:00Z"
+  },
+  {
+    "_id":"VIS11",
+    "codi_video": "P3",
+    "usuari": {"niu": "3", "nom": "Alejandro"},
+    "data_hora": "2026-04-07T13:30:00Z"
+  },
+  {
+    "_id":"VIS12",
+    "codi_video": "P3",
+    "usuari": {"niu": "5", "nom": "Aleix"},
+    "data_hora": "2026-04-07T19:30:00Z"
+  },
+  {
+    "_id":"VIS13",
+    "codi_video": "P3",
+    "usuari": {"niu": "6", "nom": "Jan"},
+    "data_hora": "2026-04-07T20:00:00Z"
+  },
+  {
+    "_id":"VIS14",
+    "codi_video": "S1",
+    "usuari": {"niu": "7", "nom": "Hector"},
+    "data_hora": "2026-04-02T19:30:00Z"
+  },
+  {
+    "_id":"VIS15",
+    "codi_video": "S1",
+    "usuari": {"niu": "4", "nom": "Marc"},
+    "data_hora": "2026-04-03T16:15:00Z"
+  },
+  {
+    "_id":"VIS16",
+    "codi_video": "S2",
+    "usuari": {"niu": "2", "nom": "Didac"},
+    "data_hora": "2026-03-27T19:30:00Z"
+  },
+  {
+    "_id":"VIS17",
+    "codi_video": "S3",
+    "usuari": {"niu": "5", "nom": "Aleix"},
+    "data_hora": "2026-04-05T15:30:00Z"
+  },
+  {
+    "_id":"VIS18",
+    "codi_video": "S3",
+    "usuari": {"niu": "6", "nom": "Jan"},
+    "data_hora": "2026-04-08T10:00:00Z"
+  },
+  {
+    "_id":"VIS19",
+    "codi_video": "S3",
+    "usuari": {"niu": "3", "nom": "Alejandro"},
+    "data_hora": "2026-04-08T23:30:00Z"
+  },
+  {
+    "_id":"VIS20",
+    "codi_video": "S4",
+    "usuari": {"niu": "1", "nom": "Javi"},
+    "data_hora": "2026-04-12T19:30:00Z"
+  },
+  {
+    "_id":"VIS21",
+    "codi_video": "S4",
+    "usuari": {"niu": "4", "nom": "Marc"},
+    "data_hora": "2026-04-13T17:30:00Z"
+  },
+  {
+    "_id":"VIS22",
+    "codi_video": "S4",
+    "usuari": {"niu": "5", "nom": "Aleix"},
+    "data_hora": "2026-04-13T12:30:00Z"
   }
 ]

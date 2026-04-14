@@ -1,79 +1,114 @@
 [
   {
-    "id_comentari": "COM_001",
-    "ref_code_video": "VID_001",
-    "ref_usuari": {
-      "niu": "1002",
-      "nom": "Didac"
-    },
-    "comentari": "Molt bona explicacio",
-    "puntuacio": 5,
+    "_id": "COM1",
+    "codi_video": "P1",
+    "usuari": {"niu": "2", "nom": "Didac"},
+    "comentari": "Excel.lent video, molt clar i ben estructurat",
+    "puntuacio": 10,
     "data": "2026-03-27"
   },
   {
-    "id_comentari": "COM_002",
-    "ref_code_video": "VID_002",
-    "ref_usuari": {
-      "niu": "1004",
-      "nom": "Marc"
-    },
-    "comentari": "Entes perfectament",
-    "puntuacio": 4,
-    "data": "2026-03-28"
-  },
-  {
-    "id_comentari": "COM_003",
-    "ref_code_video": "VID_004",
-    "ref_usuari": {
-      "niu": "1006",
-      "nom": "Jan"
-    },
-    "comentari": "Bon esquema",
-    "puntuacio": 5,
+    "_id": "COM2",
+    "codi_video": "P1",
+    "usuari": {"niu": "5", "nom": "Aleix"},
+    "comentari": "Molt bon contingut i bon ritme",
+    "puntuacio": 9,
     "data": "2026-03-29"
   },
   {
-    "id_comentari": "COM_004",
-    "ref_code_video": "VID_005",
-    "ref_usuari": {
-      "niu": "1001",
-      "nom": "Javi"
-    },
-    "comentari": "Revisa el signe",
-    "puntuacio": 3,
+    "_id": "COM3",
+    "codi_video": "P1",
+    "usuari": {"niu": "7", "nom": "Hector"},
+    "comentari": "Material molt util i ben organitzat",
+    "puntuacio": 9.5,
     "data": "2026-03-31"
   },
   {
-    "id_comentari": "COM_005",
-    "ref_code_video": "VID_006",
-    "ref_usuari": {
-      "niu": "1005",
-      "nom": "aleix"
-    },
-    "comentari": "Molt clar",
-    "puntuacio": 5,
+    "_id": "COM4",
+    "codi_video": "P2",
+    "usuari": {"niu": "1", "nom": "Javi"},
+    "comentari": "Bon video, facil de seguir",
+    "puntuacio": 8.5,
+    "data": "2026-03-26"
+  },
+  {
+    "_id": "COM5",
+    "codi_video": "P2",
+    "usuari": {"niu": "2", "nom": "Didac"},
+    "comentari": "Contingut clar i ben presentat",
+    "puntuacio": 8.5,
+    "data": "2026-03-31"
+  },
+  {
+    "_id": "COM6",
+    "codi_video": "P2",
+    "usuari": {"niu": "3", "nom": "Alejandro"},
+    "comentari": "Molt bona feina, es veu treballat",
+    "puntuacio": 9,
+    "data": "2026-04-04"
+  },
+  {
+    "_id": "COM7",
+    "codi_video": "P2",
+    "usuari": {"niu": "6", "nom": "Jan"},
+    "comentari": "Correcte pero podria ser mes detallat",
+    "puntuacio": 7.5,
+    "data": "2026-04-07"
+  },
+  {
+    "_id": "COM8",
+    "codi_video": "P3",
+    "usuari": {"niu": "1", "nom": "Javi"},
+    "comentari": "Molt bon treball, tot molt ben connectat",
+    "puntuacio": 9.5,
     "data": "2026-04-01"
   },
   {
-    "id_comentari": "COM_006",
-    "ref_code_video": "VID_001",
-    "ref_usuari": {
-      "niu": "1007",
-      "nom": "Hector"
-    },
-    "comentari": "Interessant sharding",
-    "puntuacio": 4,
+    "_id": "COM9",
+    "codi_video": "P3",
+    "usuari": {"niu": "3", "nom": "Alejandro"},
+    "comentari": "Bon contingut i facil d entendre",
+    "puntuacio": 9,
+    "data": "2026-04-07"
+  },
+  {
+    "_id": "COM10",
+    "codi_video": "S1",
+    "usuari": {"niu": "7", "nom": "Hector"},
+    "comentari": "Correcte pero una mica just",
+    "puntuacio": 7,
     "data": "2026-04-02"
   },
   {
-    "id_comentari": "COM_007",
-    "ref_code_video": "VID_007",
-    "ref_usuari": {
-      "niu": "1003",
-      "nom": "Alejandro"
-    },
-    "comentari": "Bona aplicacio",
-    "puntuacio": 4,
-    "data": "2026-04-02"
+    "_id": "COM11",
+    "codi_video": "S1",
+    "usuari": {"niu": "4", "nom": "Marc"},
+    "comentari": "Falten detalls importants, es podria millorar",
+    "puntuacio": 6.5,
+    "data": "2026-04-03"
+  },
+  {
+    "_id": "COM12",
+    "codi_video": "S3",
+    "usuari": {"niu": "5", "nom": "Aleix"},
+    "comentari": "Correcte pero amb marge de millora",
+    "puntuacio": 7,
+    "data": "2026-04-05"
+  },
+  {
+    "_id": "COM13",
+    "codi_video": "S3",
+    "usuari": {"niu": "6", "nom": "Jan"},
+    "comentari": "Acceptable pero poc profund",
+    "puntuacio": 7,
+    "data": "2026-04-08"
+  },
+  {
+    "_id": "COM14",
+    "codi_video": "S4",
+    "usuari": {"niu": "1", "nom": "Javi"},
+    "comentari": "Molt bon enfoc i resultat final",
+    "puntuacio": 9,
+    "data": "2026-04-12"
   }
 ]

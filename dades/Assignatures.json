@@ -1,36 +1,36 @@
 [
   {
-    "nom_id": "BDNR",
+    "_id": "BDNR",
     "credits": 6,
     "descripcio": "Bases de Dades No Relacionals"
   },
   {
-    "nom_id": "SyD",
+    "_id": "SDN",
     "credits": 6,
-    "descripcio": "Sistemes i Distribuits"
+    "descripcio": "Sistemes Distribuits i el Nuvol"
   },
   {
-    "nom_id": "Xarxes",
+    "_id": "XNAP",
     "credits": 6,
-    "descripcio": "Xarxes de Computadors"
+    "descripcio": "Xarxes Neuronals i Aprenentatge Profund"
   },
   {
-    "nom_id": "Modelitzacio",
+    "_id": "MiS",
     "credits": 6,
-    "descripcio": "Modelitzacio de Software"
+    "descripcio": "Modelitzacio i Simulacio"
   },
   {
-    "nom_id": "Calcul",
+    "_id": "EDP",
     "credits": 6,
-    "descripcio": "Calcul Infinitesimal"
+    "descripcio": "Equacio en Derivades Parcials"
   },
   {
-    "nom_id": "IniProg",
+    "_id": "IQ",
     "credits": 6,
-    "descripcio": "Iniciacio a la Programacio"
+    "descripcio": "Informacio Quantica"
   },
   {
-    "nom_id": "IA",
+    "_id": "IA",
     "credits": 6,
     "descripcio": "Intel.ligencia Artificial"
   }

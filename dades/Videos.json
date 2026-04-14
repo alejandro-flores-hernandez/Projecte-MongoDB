@@ -1,221 +1,89 @@
 [
   {
-    "codi_id": "VID_001",
-    "problema_original": {
-      "code": "PROB_101",
-      "titol": "Conceptes NoSQL"
-    },
-    "ref_titol": "Introduccio a BDNR",
-    "descripcio": "Explicacio de bases de dades no relacionals",
+    "_id": "P1",
+    "titol": "Problema 1",
+    "descripcio": "Descripcio 1",
     "tipus": "problema",
-    "ref_autor": {
-      "niu": "1001",
-      "nom": "Javi"
-    },
-    "ref_assignatura": "BDNR",
-    "solucions": [
-      {
-        "code": "SOL_201",
-        "trtol": "Solucio Sharding Javi",
-        "puntuacio": 5
-      }
-    ],
-    "comentaris": [
-      {
-        "usuari": {
-          "niu": "1002",
-          "nom": "Didac"
-        },
-        "comentari": "Molt bona explicacio inicial",
-        "puntuacio": 5
-      }
-    ],
-    "data": "2026-03-27",
-    "puntuacio_mitjana": 4.8,
-    "total_comentaris": 1,
-    "total_visualitzacions": 120
+    "autor": {"niu": "1", "nom": "Javi"},
+    "assignatura": "BDNR",
+    "solucions":[{"codi": "S1", "titol": "Solucio 1"}],
+    "total_comentaris": 3,
+    "total_visualitzacions": 4,
+    "puntuacio_acumulada": 28.5,
+    "puntuacio_mitjana": 9.5
   },
   {
-    "codi_id": "VID_002",
-    "problema_original": {
-      "code": "PROB_102",
-      "titol": "Sincronitzacio"
-    },
-    "ref_titol": "Solucio Threads",
-    "descripcio": "Gestio de fils en SyD",
+    "_id": "P2",
+    "titol": "Problema 2",
+    "descripcio": "Descripcio 2",
+    "tipus": "problema",
+    "autor": {"niu": "7", "nom": "Hector"},
+    "assignatura": "EDP",
+    "solucions":[{"codi": "S2", "titol": "Solucio 2"}, {"codi": "S3", "titol": "Solucio 3"}],
+    "total_comentaris": 4,
+    "total_visualitzacions": 5,
+    "puntuacio_acumulada": 33.5,
+    "puntuacio_mitjana": 8.375
+  },
+  {
+    "_id": "P3",
+    "titol": "Problema 3",
+    "descripcio": "Descripcio 3",
+    "tipus": "problema",
+    "autor": {"niu": "7", "nom": "Hector"},
+    "assignatura": "MiS",
+    "solucions":[{"codi": "S4", "titol": "Solucio 4"}],
+    "total_comentaris": 2,
+    "total_visualitzacions": 4,
+    "puntuacio_acumulada": 18.5,
+    "puntuacio_mitjana": 9.25
+  },
+  {
+    "_id": "S1",
+    "titol": "Solucio 1",
+    "descripcio": "Descripcio 1",
     "tipus": "solucio",
-    "ref_autor": {
-      "niu": "1002",
-      "nom": "Didac"
-    },
-    "ref_assignatura": "SyD",
-    "solucions": [],
-    "comentaris": [
-      {
-        "usuari": {
-          "niu": "1004",
-          "nom": "Marc"
-        },
-        "comentari": "Entes perfectament",
-        "puntuacio": 4
-      }
-    ],
-    "data": "2026-03-28",
-    "puntuacio_mitjana": 4.0,
-    "total_comentaris": 1,
-    "total_visualitzacions": 90
+    "autor": {"niu": "2", "nom": "Didac"},
+    "problema_original": {"codi": "P1", "titol": "Problema 1"},
+    "total_comentaris": 2,
+    "total_visualitzacions": 2,
+    "puntuacio_acumulada": 13.5,
+    "puntuacio_mitjana": 6.75
   },
   {
-    "codi_id": "VID_003",
-    "problema_original": {
-      "code": "PROB_103",
-      "titol": "Capa de Xarxa"
-    },
-    "ref_titol": "Configuracio OSPF",
-    "descripcio": "Exercici practic de routing",
-    "tipus": "problema",
-    "ref_autor": {
-      "niu": "1003",
-      "nom": "Alejandro"
-    },
-    "ref_assignatura": "Xarxes",
-    "solucions": [
-      {
-        "code": "SOL_203",
-        "trtol": "Configuracio Alejandro",
-        "puntuacio": 4.5
-      }
-    ],
-    "comentaris": [],
-    "data": "2026-03-29",
-    "puntuacio_mitjana": 4.5,
+    "_id": "S2",
+    "titol": "Solucio 2",
+    "descripcio": "Descripcio 2",
+    "tipus": "solucio",
+    "autor": {"niu": "3", "nom": "Alejandro"},
+    "problema_original": {"codi": "P2", "titol": "Problema 2"},
     "total_comentaris": 0,
-    "total_visualitzacions": 110
+    "total_visualitzacions": 1,
+    "puntuacio_acumulada": 0,
+    "puntuacio_mitjana": 0
   },
   {
-    "codi_id": "VID_004",
-    "problema_original": {
-      "code": "PROB_104",
-      "titol": "Relacions UML"
-    },
-    "ref_titol": "Diagrama d'Herencia",
-    "descripcio": "Modelat d'un sistema de vehicles",
+    "_id": "S3",
+    "titol": "Solucio 3",
+    "descripcio": "Descripcio 3",
     "tipus": "solucio",
-    "ref_autor": {
-      "niu": "1004",
-      "nom": "Marc"
-    },
-    "ref_assignatura": "Modelitzacio",
-    "solucions": [],
-    "comentaris": [
-      {
-        "usuari": {
-          "niu": "1006",
-          "nom": "Jan"
-        },
-        "comentari": "Bon esquema",
-        "puntuacio": 5
-      }
-    ],
-    "data": "2026-03-30",
-    "puntuacio_mitjana": 5.0,
-    "total_comentaris": 1,
-    "total_visualitzacions": 55
+    "autor": {"niu": "4", "nom": "Marc"},
+    "problema_original": {"codi": "P2", "titol": "Problema 2"},
+    "total_comentaris": 2,
+    "total_visualitzacions": 3,
+    "puntuacio_acumulada": 14,
+    "puntuacio_mitjana": 7
   },
   {
-    "codi_id": "VID_005",
-    "problema_original": {
-      "code": "PROB_105",
-      "titol": "Derivades"
-    },
-    "ref_titol": "Calcul de la Tangent",
-    "descripcio": "Aplicacio de la derivada en un punt",
+    "_id": "S4",
+    "titol": "Solucio 4",
+    "descripcio": "Descripcio 4",
     "tipus": "solucio",
-    "ref_autor": {
-      "niu": "1005",
-      "nom": "aleix"
-    },
-    "ref_assignatura": "Calcul",
-    "solucions": [],
-    "comentaris": [
-      {
-        "usuari": {
-          "niu": "1001",
-          "nom": "Javi"
-        },
-        "comentari": "Revisa el signe al final",
-        "puntuacio": 3
-      }
-    ],
-    "data": "2026-03-31",
-    "puntuacio_mitjana": 3.0,
+    "autor": {"niu": "6", "nom": "Jan"},
+    "problema_original": {"codi": "P3", "titol": "Problema 3"},
     "total_comentaris": 1,
-    "total_visualitzacions": 40
-  },
-  {
-    "codi_id": "VID_006",
-    "problema_original": {
-      "code": "PROB_106",
-      "titol": "Llistes Python"
-    },
-    "ref_titol": "Slicing i metodes",
-    "descripcio": "Com manipular llistes en Python",
-    "tipus": "problema",
-    "ref_autor": {
-      "niu": "1006",
-      "nom": "Jan"
-    },
-    "ref_assignatura": "IniProg",
-    "solucions": [
-      {
-        "code": "SOL_206",
-        "trtol": "Solucio optimitzada Jan",
-        "puntuacio": 5
-      }
-    ],
-    "comentaris": [
-      {
-        "usuari": {
-          "niu": "1005",
-          "nom": "aleix"
-        },
-        "comentari": "Molt clar per comencat",
-        "puntuacio": 5
-      }
-    ],
-    "data": "2026-04-01",
-    "puntuacio_mitjana": 5.0,
-    "total_comentaris": 1,
-    "total_visualitzacions": 300
-  },
-  {
-    "codi_id": "VID_007",
-    "problema_original": {
-      "code": "PROB_107",
-      "titol": "K-means"
-    },
-    "ref_titol": "Algorisme de Clustering",
-    "descripcio": "Agrupament de dades en IA",
-    "tipus": "solucio",
-    "ref_autor": {
-      "niu": "1007",
-      "nom": "Hector"
-    },
-    "ref_assignatura": "IA",
-    "solucions": [],
-    "comentaris": [
-      {
-        "usuari": {
-          "niu": "1003",
-          "nom": "Alejandro"
-        },
-        "comentari": "Interessant aplicacio",
-        "puntuacio": 4
-      }
-    ],
-    "data": "2026-04-02",
-    "puntuacio_mitjana": 4.0,
-    "total_comentaris": 1,
-    "total_visualitzacions": 210
-  }
+    "total_visualitzacions": 3,
+    "puntuacio_acumulada": 9,
+    "puntuacio_mitjana": 9
+  }  
 ]
